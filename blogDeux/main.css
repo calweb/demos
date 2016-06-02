@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: block;
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+}
+aside, section {
+  vertical-align: top;
+}
+section {
+  display: none;
+
+}
+aside {
+  width: 25%;
+}
+.active {
+  width: 70%;
+  display: inline-block;
+}
+
+header, footer {
+  display: block;
+  width: 100%;
+
+  background-color: #ff00ff;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav li:hover {
+  background-color: #00ff00;
+}
+nav li:hover a {
+  color: #ff0000;
+}
